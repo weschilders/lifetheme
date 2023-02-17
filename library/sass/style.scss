@@ -80,3 +80,33 @@
 /* Alignments
 --------------------------------------------- */
 @import "utilities/alignments";
+
+.full-width .entry-content {
+    max-width: 100% !important;
+}
+
+.song-info {
+	display: block;
+	margin-bottom: 1.5em;
+	.song-title {
+		font-style: italic;
+	}
+	.song-meta {
+		color: $medium;
+		text-transform: uppercase;
+		border-color: $medium;
+		font-size: .65em;
+		text-decoration-color: $medium;
+		text-decoration-style: dotted;
+		letter-spacing: 1px;
+		display: block;
+		margin: .5em 0;
+		&:visited {
+			color: $medium;
+		}
+		&:hover {
+			color: $mediumdark;
+			text-decoration-color: $mediumdark;
+		}
+	}
+}

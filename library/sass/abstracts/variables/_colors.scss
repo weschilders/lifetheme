@@ -7,6 +7,8 @@ $light: #f7f7f7;
 $white: #ffffff;
 $yellow: #f9f3b3;
 $yellowlight: #fbf7cb;
+$darkblue: #219ebc;
+$lightblue: #8ecae6;
 
 $rainbow : (
 	0: #9E23A5,
@@ -49,8 +51,8 @@ $color__text-input: #666;
 $color__text-input-focus: #111;
 $color__link: $dark;
 $color__link-hover: $dark;
-$color__link-visited: $mediumdark;
-$color__border-link: $mediumlight;
+$color__link-visited: $darkblue;
+$color__border-link: $darkblue;
 $color__border-link-hover: $dark;
 
 $color__border-button: $mediumlight;

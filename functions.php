@@ -481,3 +481,13 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+// Adjust width on oEmbed videos - https://www.wpbeginner.com/wp-themes/how-to-set-oembed-max-width-in-wordpress-3-5-with-content_width/#embedfilter
+
+add_filter( 'embed_defaults', 'wpbeginner_embed_defaults' );
+ 
+function wpbeginner_embed_defaults() {
+    return array(
+        'width'  => 800,
+        'height' => 450
+    );
+}

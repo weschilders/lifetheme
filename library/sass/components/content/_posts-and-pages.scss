@@ -9,6 +9,10 @@
 	@extend %square-ish;
 	display: block; // for ones that are <a>
 
+	img {
+		border-radius: .75em;
+		margin-top: 1em;
+	}
 	@media screen and ($xlarge-up) {
 		text-align: center;
 	}
